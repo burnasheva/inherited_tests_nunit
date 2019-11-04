@@ -14,7 +14,7 @@ namespace InheritedNUnitTests
         public void TestOutput()
         {
             Console.WriteLine("Hello, World");
-            Assert.False(false);
+            Assert.True(false);
         }
     }
 }
